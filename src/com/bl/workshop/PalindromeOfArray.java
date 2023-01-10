@@ -7,7 +7,7 @@ public class PalindromeOfArray {
 	static boolean pelindrome(int number) {
 		int divisor = 1;
 		while (number / divisor >= 10)
-			divisor = 10;
+			divisor  *= 10;
 
 		while (number != 0) {
 
